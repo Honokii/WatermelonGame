@@ -1,0 +1,8 @@
+using System;
+using UnityEngine.Events;
+using HNK.Tools;
+
+public class #EVENTNAME#Listener : BaseGameEventListener<#EVENTNAME#Args, #EVENTNAME#, #EVENTNAME#Response> { }
+
+[Serializable]
+public class #EVENTNAME#Response : UnityEvent<#EVENTNAME#Args> { }
